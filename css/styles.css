@@ -1,0 +1,469 @@
+:root {
+  --blue: #2196f3;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.blue {
+  color: var(--blue);
+}
+body {
+  font-family: "roboto", "Raleway", sans-serif;
+  text-decoration: none;
+  color: #212121;
+  width: 1600px;
+}
+.header {
+  border-bottom: 1px solid #ececec;
+}
+.contacts-top {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  padding: 0;
+  margin: 0;
+}
+.contact-details-top {
+  display: inline-block;
+  font-size: 14px;
+}
+.mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mail:hover svg {
+  fill: var(--blue);
+}
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phone:hover svg {
+  fill: var(--blue);
+}
+
+.logo-top a:link {
+  color: black;
+  text-decoration: none;
+  font-family: "raleway";
+  font-weight: 700;
+  font-size: 26px;
+}
+.logo-top a:visited {
+  color: black;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.top-links {
+  display: inline-flex;
+  margin-right: 0;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.top-links a {
+  color: #757575;
+  text-decoration: none;
+}
+.top-links a:hover {
+  color: var(--blue);
+}
+
+.nav {
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 46px;
+  margin-left: 93px;
+  margin-right: 345px;
+}
+.nav a:link {
+  color: black;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.nav a:visited {
+  color: black;
+  text-decoration: none;
+}
+.nav a:hover {
+  color: var(--blue);
+}
+
+.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.link {
+  color: black;
+}
+.filters {
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  margin-right: 8px;
+  margin-bottom: 50px;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #212121;
+}
+.project-type {
+  font-size: 16px;
+  color: #757575;
+  padding: 20px 24px;
+  border-bottom: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  background-color: #ffffff;
+  position: relative;
+}
+.footer {
+  color: white;
+  background-color: #2f303a;
+  margin-top: 94px;
+}
+.main-portfolio {
+  margin-bottom: 94px;
+}
+.contact-bottom {
+  font-style: normal;
+  padding-bottom: 60px;
+
+  text-align: left;
+}
+.banner {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 200px 0 200px 0;
+}
+.intro {
+  background-color: #2f303a;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/backgroundimage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  margin: 0;
+  text-align: center;
+}
+.slogan {
+  width: 696px;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  font-size: 44px;
+  justify-content: center;
+}
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "roboto";
+  cursor: pointer;
+  margin-right: 8px;
+  border: 0;
+  border-radius: 4px;
+  line-height: 26px;
+  padding: 6px 22px 6px 22px;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--blue);
+  color: white;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.contact-bottom-address {
+  font-style: normal;
+  text-align: left;
+  margin-top: 0;
+}
+.contacts {
+  list-style-type: none;
+}
+.contact-detail {
+  padding-top: 9px;
+}
+.contact-bottom-links a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.contact-bottom-links a:hover {
+  color: var(--blue);
+}
+.logo-bottom {
+  font-family: "raleway";
+  font-weight: 700;
+  font-size: 26px;
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+.logo-bottom a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section {
+  padding-top: 94px;
+}
+.bluebutton {
+  background-color: var(--blue);
+  color: white;
+  width: 200px;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  list-style-type: none;
+}
+.card {
+  background-color: #ffffff;
+}
+.card:hover,
+.card:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
+.cardimg {
+  display: block;
+}
+.cover {
+  position: relative;
+  overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translatey(100%);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.overlay p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  padding-top: 49px;
+  padding-left: 24px;
+  padding-right: 45px;
+  padding-bottom: 49px;
+  line-height: 28px;
+}
+.cover:hover .overlay {
+  transform: translatey(0);
+}
+.lorem {
+  display: flex;
+  margin: 0;
+  gap: 30px;
+  color: black;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.ipsum {
+  color: #757575;
+}
+.about {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+.what-we-do {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  text-align: center;
+  padding-bottom: 94px;
+}
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 1170px;
+  margin: auto;
+}
+.our-team {
+  background-color: #f5f4fa;
+  width: 1600px;
+  padding-bottom: 94px;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.role {
+  text-align: center;
+  color: #757575;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.team-member {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
+}
+.icon-box {
+  height: 120px;
+  width: 270px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  fill: black;
+}
+
+.social-list {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.social-icon {
+  height: 20px;
+  width: 20px;
+  fill: #afb1b8;
+}
+
+.social-icon-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.social-icon-circle:hover svg {
+  fill: white;
+}
+.social-icon-circle:hover {
+  background-color: var(--blue);
+}
+.client-list {
+  display: inline-flex;
+  gap: 30px;
+  width: 1170px;
+}
+.client-icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+
+.client-box {
+  height: 92px;
+  width: 170px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.client-box:hover svg {
+  fill: var(--blue);
+}
+.client-box:hover {
+  border: 1px solid var(--blue);
+}
+
+.envelope-icon {
+  width: 16px;
+  height: 16px;
+  fill: #757575;
+  margin-right: 10px;
+}
+.envelope-icon:hover {
+  fill: var(--blue);
+}
+.phone-icon {
+  height: 16px;
+  width: 10px;
+  fill: #757575;
+  margin-right: 10px;
+}
+.phone-icon:hover {
+  fill: var(--blue);
+}
+.social-icon-circle-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+.social-icon-circle-footer:hover {
+  background-color: var(--blue);
+}
+.social-icon-circle-footer:hover svg {
+  fill: white;
+}
+.footerflex {
+  display: flex;
+  gap: 70px;
+  align-items: top;
+}
+.joinus-header {
+  font-size: 14px;
+  font-weight: 700;
+}
+.joinus {
+  padding-top: 72px;
+}
+.active {
+  position: relative;
+}
+.active::after {
+  content: "";
+  height: 4px;
+  background-color: var(--blue);
+  position: absolute;
+  border-radius: 2px;
+  width: 100%;
+  bottom: -31px;
+}
