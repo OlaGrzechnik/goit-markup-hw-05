@@ -467,3 +467,63 @@ body {
   width: 100%;
   bottom: -31px;
 }
+.service {
+  position: relative;
+}
+.subtitle {
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  position: absolute;
+  top: 224px;
+  left: 0;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-top: 27px;
+}
+.backdrop {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 3;
+  transition: transform 500ms linear, visibility 500ms linear,
+    opacity 500ms linear;
+}
+.modal {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+  height: 581px;
+  background-color: white;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 4px;
+}
+
+.close-btn {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+.is-hidden {
+  background-color: rgba(0, 0, 0, 0.2);
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  width: 1600px;
+  height: 100%;
+  pointer-events: none;
+  transform: scaleY(0);
+}
