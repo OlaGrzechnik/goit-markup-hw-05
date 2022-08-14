@@ -209,7 +209,7 @@ body {
 }
 .contact-detail {
   padding-top: 9px;
-  line-height: 24px;
+  font-size: 14px;
 }
 .contact-bottom-links a {
   color: rgba(255, 255, 255, 0.6);
